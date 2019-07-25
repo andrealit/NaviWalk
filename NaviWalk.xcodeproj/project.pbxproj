@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4B91A0622EA53EB00CC7E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B91A0522EA53EB00CC7E57 /* AppDelegate.swift */; };
+		F4B91A0822EA53EB00CC7E57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B91A0722EA53EB00CC7E57 /* ViewController.swift */; };
+		F4B91A0B22EA53EB00CC7E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B91A0922EA53EB00CC7E57 /* Main.storyboard */; };
+		F4B91A0E22EA53EB00CC7E57 /* NaviWalk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4B91A0C22EA53EB00CC7E57 /* NaviWalk.xcdatamodeld */; };
+		F4B91A1022EA53ED00CC7E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B91A0F22EA53ED00CC7E57 /* Assets.xcassets */; };
+		F4B91A1322EA53ED00CC7E57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B91A1122EA53ED00CC7E57 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4B91A0222EA53EB00CC7E57 /* NaviWalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaviWalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B91A0522EA53EB00CC7E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4B91A0722EA53EB00CC7E57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4B91A0A22EA53EB00CC7E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4B91A0D22EA53EB00CC7E57 /* NaviWalk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NaviWalk.xcdatamodel; sourceTree = "<group>"; };
+		F4B91A0F22EA53ED00CC7E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4B91A1222EA53ED00CC7E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4B91A1422EA53ED00CC7E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4B919FF22EA53EB00CC7E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4B919F922EA53EB00CC7E57 = {
+			isa = PBXGroup;
+			children = (
+				F4B91A0422EA53EB00CC7E57 /* NaviWalk */,
+				F4B91A0322EA53EB00CC7E57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4B91A0322EA53EB00CC7E57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4B91A0222EA53EB00CC7E57 /* NaviWalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4B91A0422EA53EB00CC7E57 /* NaviWalk */ = {
+			isa = PBXGroup;
+			children = (
+				F4B91A0522EA53EB00CC7E57 /* AppDelegate.swift */,
+				F4B91A0722EA53EB00CC7E57 /* ViewController.swift */,
+				F4B91A0922EA53EB00CC7E57 /* Main.storyboard */,
+				F4B91A0F22EA53ED00CC7E57 /* Assets.xcassets */,
+				F4B91A1122EA53ED00CC7E57 /* LaunchScreen.storyboard */,
+				F4B91A1422EA53ED00CC7E57 /* Info.plist */,
+				F4B91A0C22EA53EB00CC7E57 /* NaviWalk.xcdatamodeld */,
+			);
+			path = NaviWalk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4B91A0122EA53EB00CC7E57 /* NaviWalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4B91A1722EA53ED00CC7E57 /* Build configuration list for PBXNativeTarget "NaviWalk" */;
+			buildPhases = (
+				F4B919FE22EA53EB00CC7E57 /* Sources */,
+				F4B919FF22EA53EB00CC7E57 /* Frameworks */,
+				F4B91A0022EA53EB00CC7E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaviWalk;
+			productName = NaviWalk;
+			productReference = F4B91A0222EA53EB00CC7E57 /* NaviWalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4B919FA22EA53EB00CC7E57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Andrea Tongsak";
+				TargetAttributes = {
+					F4B91A0122EA53EB00CC7E57 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = F4B919FD22EA53EB00CC7E57 /* Build configuration list for PBXProject "NaviWalk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4B919F922EA53EB00CC7E57;
+			productRefGroup = F4B91A0322EA53EB00CC7E57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4B91A0122EA53EB00CC7E57 /* NaviWalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4B91A0022EA53EB00CC7E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B91A1322EA53ED00CC7E57 /* LaunchScreen.storyboard in Resources */,
+				F4B91A1022EA53ED00CC7E57 /* Assets.xcassets in Resources */,
+				F4B91A0B22EA53EB00CC7E57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4B919FE22EA53EB00CC7E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B91A0822EA53EB00CC7E57 /* ViewController.swift in Sources */,
+				F4B91A0E22EA53EB00CC7E57 /* NaviWalk.xcdatamodeld in Sources */,
+				F4B91A0622EA53EB00CC7E57 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4B91A0922EA53EB00CC7E57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4B91A0A22EA53EB00CC7E57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4B91A1122EA53ED00CC7E57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4B91A1222EA53ED00CC7E57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4B91A1522EA53ED00CC7E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4B91A1622EA53ED00CC7E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4B91A1822EA53ED00CC7E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HUQRC7VGPT;
+				INFOPLIST_FILE = NaviWalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tongsak.NaviWalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4B91A1922EA53ED00CC7E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HUQRC7VGPT;
+				INFOPLIST_FILE = NaviWalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tongsak.NaviWalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4B919FD22EA53EB00CC7E57 /* Build configuration list for PBXProject "NaviWalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B91A1522EA53ED00CC7E57 /* Debug */,
+				F4B91A1622EA53ED00CC7E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4B91A1722EA53ED00CC7E57 /* Build configuration list for PBXNativeTarget "NaviWalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B91A1822EA53ED00CC7E57 /* Debug */,
+				F4B91A1922EA53ED00CC7E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F4B91A0C22EA53EB00CC7E57 /* NaviWalk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F4B91A0D22EA53EB00CC7E57 /* NaviWalk.xcdatamodel */,
+			);
+			currentVersion = F4B91A0D22EA53EB00CC7E57 /* NaviWalk.xcdatamodel */;
+			path = NaviWalk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F4B919FA22EA53EB00CC7E57 /* Project object */;
+}
