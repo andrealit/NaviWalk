@@ -6,4 +6,13 @@
 //  Copyright © 2019 Andrea Tongsak. All rights reserved.
 //
 
-import Foundation
+import CoreData
+
+// MARK: CoreDataStack
+
+struct CoreDataStack {
+    
+    // MARK: Properties
+    
+    
+}

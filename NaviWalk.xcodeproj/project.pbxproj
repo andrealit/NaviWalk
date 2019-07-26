@@ -14,6 +14,7 @@
 		F4B91A1022EA53ED00CC7E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B91A0F22EA53ED00CC7E57 /* Assets.xcassets */; };
 		F4B91A1322EA53ED00CC7E57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B91A1122EA53ED00CC7E57 /* LaunchScreen.storyboard */; };
 		F4B91A1B22EA54CD00CC7E57 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B91A1A22EA54CD00CC7E57 /* CoreDataStack.swift */; };
+		F4B91A1F22EA5BAD00CC7E57 /* MapboxData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B91A1E22EA5BAD00CC7E57 /* MapboxData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F4B91A1222EA53ED00CC7E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4B91A1422EA53ED00CC7E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4B91A1A22EA54CD00CC7E57 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		F4B91A1E22EA5BAD00CC7E57 /* MapboxData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,9 @@
 				F4B91A1C22EA54E800CC7E57 /* View */,
 				F4B91A0F22EA53ED00CC7E57 /* Assets.xcassets */,
 				F4B91A1422EA53ED00CC7E57 /* Info.plist */,
-				F4B91A0C22EA53EB00CC7E57 /* NaviWalk.xcdatamodeld */,
+				F4B91A1D22EA579100CC7E57 /* Data Model */,
 				F4B91A1A22EA54CD00CC7E57 /* CoreDataStack.swift */,
+				F4B91A1E22EA5BAD00CC7E57 /* MapboxData.swift */,
 			);
 			path = NaviWalk;
 			sourceTree = "<group>";
@@ -76,6 +79,14 @@
 				F4B91A1122EA53ED00CC7E57 /* LaunchScreen.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F4B91A1D22EA579100CC7E57 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4B91A0C22EA53EB00CC7E57 /* NaviWalk.xcdatamodeld */,
+			);
+			path = "Data Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 			files = (
 				F4B91A0822EA53EB00CC7E57 /* ViewController.swift in Sources */,
 				F4B91A0E22EA53EB00CC7E57 /* NaviWalk.xcdatamodeld in Sources */,
+				F4B91A1F22EA5BAD00CC7E57 /* MapboxData.swift in Sources */,
 				F4B91A0622EA53EB00CC7E57 /* AppDelegate.swift in Sources */,
 				F4B91A1B22EA54CD00CC7E57 /* CoreDataStack.swift in Sources */,
 			);
