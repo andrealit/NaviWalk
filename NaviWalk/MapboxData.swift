@@ -28,7 +28,8 @@ struct MapboxData {
                 return
             }
             
-            let jsonData = try! JSONSerialization.jsonObject(with: <#T##Data#>, options: <#T##JSONSerialization.ReadingOptions#>)
+            let jsonData = try! JSONSerialization.jsonObject(with: data!, options: .allowFragments) as! [String: Any]
+            //if let pics = jsonData["photos"] as []
         }
         
     }

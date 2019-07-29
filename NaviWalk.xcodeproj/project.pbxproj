@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6741CA577C86B9C338F9CB75 /* Pods_NaviWalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F944D909AD47B1802906A3 /* Pods_NaviWalk.framework */; };
 		F4B91A0622EA53EB00CC7E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B91A0522EA53EB00CC7E57 /* AppDelegate.swift */; };
 		F4B91A0822EA53EB00CC7E57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B91A0722EA53EB00CC7E57 /* ViewController.swift */; };
 		F4B91A0B22EA53EB00CC7E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B91A0922EA53EB00CC7E57 /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		676D6138DE124A4D85803775 /* Pods-NaviWalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaviWalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaviWalk/Pods-NaviWalk.release.xcconfig"; sourceTree = "<group>"; };
+		A4F944D909AD47B1802906A3 /* Pods_NaviWalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaviWalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B91A0222EA53EB00CC7E57 /* NaviWalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaviWalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B91A0522EA53EB00CC7E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4B91A0722EA53EB00CC7E57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		F4B91A1422EA53ED00CC7E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4B91A1A22EA54CD00CC7E57 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		F4B91A1E22EA5BAD00CC7E57 /* MapboxData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxData.swift; sourceTree = "<group>"; };
+		F708DDDBBFAD47B257D97D79 /* Pods-NaviWalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaviWalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaviWalk/Pods-NaviWalk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +39,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6741CA577C86B9C338F9CB75 /* Pods_NaviWalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DDB5DA5A098FA7F9D30AD65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F708DDDBBFAD47B257D97D79 /* Pods-NaviWalk.debug.xcconfig */,
+				676D6138DE124A4D85803775 /* Pods-NaviWalk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		627DC28016AE8F78F334FD23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4F944D909AD47B1802906A3 /* Pods_NaviWalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F459D70922EE8C8A007EA947 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		F4B919F922EA53EB00CC7E57 = {
 			isa = PBXGroup;
 			children = (
 				F4B91A0422EA53EB00CC7E57 /* NaviWalk */,
 				F4B91A0322EA53EB00CC7E57 /* Products */,
+				5DDB5DA5A098FA7F9D30AD65 /* Pods */,
+				627DC28016AE8F78F334FD23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +91,7 @@
 		F4B91A0422EA53EB00CC7E57 /* NaviWalk */ = {
 			isa = PBXGroup;
 			children = (
+				F459D70922EE8C8A007EA947 /* Data */,
 				F4B91A0522EA53EB00CC7E57 /* AppDelegate.swift */,
 				F4B91A0722EA53EB00CC7E57 /* ViewController.swift */,
 				F4B91A1C22EA54E800CC7E57 /* View */,
@@ -96,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4B91A1722EA53ED00CC7E57 /* Build configuration list for PBXNativeTarget "NaviWalk" */;
 			buildPhases = (
+				BE39414B3271556464E31707 /* [CP] Check Pods Manifest.lock */,
 				F4B919FE22EA53EB00CC7E57 /* Sources */,
 				F4B919FF22EA53EB00CC7E57 /* Frameworks */,
 				F4B91A0022EA53EB00CC7E57 /* Resources */,
+				9C2B0ECD5D5A4DA497EF0685 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +188,47 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9C2B0ECD5D5A4DA497EF0685 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NaviWalk/Pods-NaviWalk-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MapboxDirections.swift/MapboxDirections.framework",
+				"${BUILT_PRODUCTS_DIR}/Polyline/Polyline.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxDirections.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Polyline.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NaviWalk/Pods-NaviWalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE39414B3271556464E31707 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NaviWalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F4B919FE22EA53EB00CC7E57 /* Sources */ = {
@@ -308,6 +383,7 @@
 		};
 		F4B91A1822EA53ED00CC7E57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F708DDDBBFAD47B257D97D79 /* Pods-NaviWalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -326,6 +402,7 @@
 		};
 		F4B91A1922EA53ED00CC7E57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 676D6138DE124A4D85803775 /* Pods-NaviWalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
