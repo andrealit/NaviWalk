@@ -1,0 +1,20 @@
+PODS:
+  - MapboxDirections.swift (0.30.0):
+    - Polyline (~> 4.2)
+  - Polyline (4.2.1)
+
+DEPENDENCIES:
+  - MapboxDirections.swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MapboxDirections.swift
+    - Polyline
+
+SPEC CHECKSUMS:
+  MapboxDirections.swift: 1c6df988c24b753888ebd9976d7c98632501a413
+  Polyline: 0e9890790292741c8186201a536b6bb6a78d02dd
+
+PODFILE CHECKSUM: c036f9c7f868560d9dbfa089816320fe25b193be
+
+COCOAPODS: 1.5.2

@@ -1,0 +1,6 @@
+framework module Pods_NaviWalk {
+  umbrella header "Pods-NaviWalk-umbrella.h"
+
+  export *
+  module * { export * }
+}

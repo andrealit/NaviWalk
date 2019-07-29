@@ -1,0 +1,935 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02597E605F4A304F7D8EE712040DB839 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3AD12EB42BB76D5938334622678101 /* Foundation.framework */; };
+		05838D72928EE0D27C73D2F057FFB8D9 /* MBMatchOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162501265FEDA0A38A5BC9991EA66379 /* MBMatchOptions.swift */; };
+		05AC34ABC122B2C81E6325603AA8EEED /* OfflineDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E617B8D225C71BE04E715EAA7528DC5 /* OfflineDirections.swift */; };
+		0E9251F76A6E3880697D220D6A53DC21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3AD12EB42BB76D5938334622678101 /* Foundation.framework */; };
+		16B5E9E79CFE1ED6FB91FCA28211A524 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3994E5AB55FF374F5331422ECFAAD69C /* String.swift */; };
+		16C188D1EA014B8057388EB009A97224 /* Polyline-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F1E4C7D1CA2DA7ABB8B9E64D21AAA /* Polyline-dummy.m */; };
+		1980DB2643A67C2C8F8964DCAA33980F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4800F9ECA1D02E4FD28EE9CA4390E5B9 /* Double.swift */; };
+		242775BE68C94D939359EF3CC2410402 /* MapboxDirections.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E67345C91C9F305E1F965E845AB34DCE /* MapboxDirections.swift-dummy.m */; };
+		35BECD9733743C46177FFD4F98906D39 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D44D633070D1BE7074DA6465A8D658 /* Array.swift */; };
+		3A71AE494EFA5EFCEA408C9D8E9E42A6 /* HTTPURLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F2E480C03B5A00F56EDDB68D14D6A1 /* HTTPURLResponse.swift */; };
+		3EA9A986C08B6BB522558F1755CE24CF /* MBSpokenInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE87B3389C0A1516651A5E45B6752EEB /* MBSpokenInstruction.swift */; };
+		41B9A1C6A1BA27D035E46BC648145B68 /* MBDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C94EF151520DE00A4161378D97782 /* MBDirections.swift */; };
+		4705F3154FAC6E86A51D6A0B657796B8 /* Pods-NaviWalk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A0DF1DD8948DCD71B0095F0478226F3 /* Pods-NaviWalk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B9B691590C3F8242CCBA1519561A46E /* CMapboxDirections.h in Headers */ = {isa = PBXBuildFile; fileRef = C7EA1C46E0EA30618ECFF9B934EF197C /* CMapboxDirections.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BDE4845989953A79218DB941CB4A5E9 /* MBLaneIndication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472574EA366214C90D67A9BC3C6546A /* MBLaneIndication.swift */; };
+		57FE9C8DA3AA36FFBE8D8F81C8792293 /* MBTracepoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCCCF665990FDFDE50001A5C2DB41B0 /* MBTracepoint.swift */; };
+		6A005FBB9E25C95859A301D253EFC28B /* MBCongestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1077923034121261DF997E171BE3AC2F /* MBCongestion.swift */; };
+		6C58EECA30EBA2F92CF9C80A302206A6 /* MBCoordinateBounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D312AE0A49DD6F544C5C792895F26 /* MBCoordinateBounds.swift */; };
+		78D66D59EC76931466F2C6D695D362EE /* Polyline.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D1E832CD29C2E266DC4C1D529F88EBB /* Polyline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81C5FEACBD4286C64E764B3C42FF3293 /* Polyline-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E88F71A3A068BE504FFD7E3E041481C3 /* Polyline-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		866B578F9F48C0FB02F509C2A16202D8 /* MBRouteLeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DE272E04EDF5381B3F523C6A3656FE /* MBRouteLeg.swift */; };
+		86707FDAC920305F7E2A1B4BB3E1358D /* MBRoadClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08103919B9BAB9B88E6189E15AB88DB /* MBRoadClasses.swift */; };
+		8999B4CED79D42236F67485444CC47D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3AD12EB42BB76D5938334622678101 /* Foundation.framework */; };
+		8C1B8EEFC05B6E1E3EE9C59D75B31A6A /* Pods-NaviWalk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91074456829D7880975F491A199E0D22 /* Pods-NaviWalk-dummy.m */; };
+		8F8ADE4F02AFCB2DCECF0B30FC8EB9BE /* MBRouteOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD6F81FED0671451C661AF6FDD7A458 /* MBRouteOptions.swift */; };
+		96B1555B8AB3776A400FC75188934D94 /* MBVisualInstructionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFB43F7293785B4C7DC57A5215CEEFE /* MBVisualInstructionType.swift */; };
+		97B770BD25E5CB8B2D7435E96453959E /* MBVisualInstructionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F6A6FAF3D9238BB3B496A98968E93 /* MBVisualInstructionComponent.swift */; };
+		9BE8591FEE3ABCE3B8ABDE0F097B5EE1 /* MapboxDirections.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC5012CFBB712C5EF359D5DE2AD6516 /* MapboxDirections.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F04D73C08065C9536C556FCB7D05857 /* MBDirectionsResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F722C90FCB000BB152EA21FD88C89A3 /* MBDirectionsResult.swift */; };
+		A77389790AEC7D9B0AB4F86E2E9560DA /* MBMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2827F4B65C303180DF1B58C3E74A6D /* MBMatch.swift */; };
+		A8D4C207C506E27B6667604BA3618194 /* MBAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488128863E9611643FE86A6BB4CE817 /* MBAttribute.swift */; };
+		AA023C8FE6F2F4C16A117658A9C461DA /* MBComponentRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CF94052F5ABD6BEE76874307D39819 /* MBComponentRepresentable.swift */; };
+		AACCEB12F0BDBA964E372A56A0C0FA98 /* MBRouteOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EBB64AA6675AA78D7FE4A2717E52958 /* MBRouteOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B085CC78F929E1540F29E52280EF1A88 /* MBVisualInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E0BAD9D89F5D613A47BA0C6CA2C38 /* MBVisualInstruction.swift */; };
+		B382696FA380BA2A924C9F94F5709A1A /* Polyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DD76CCD38B855EDB097BBCF2DB4B5 /* Polyline.swift */; };
+		C3CF7FA871B07D7A07DF94871448CE6E /* MBVisualInstructionBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E7328DB3AEAA7B41B04367EB109E17 /* MBVisualInstructionBanner.swift */; };
+		C5EDD45292E8F896525F05923BD7DCD2 /* MBLaneIndicationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DE4C6B264E19411DB00BD46895E6C3 /* MBLaneIndicationComponent.swift */; };
+		C66F0FAD3903CA7F4D51542A1F5D1C7A /* MBDirectionsOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB28C7848DA4E6E824F6257FB7C1ECE8 /* MBDirectionsOptions.swift */; };
+		CADB975F83D46952F8AC39DD6CD3BA83 /* MBLaneIndication.h in Headers */ = {isa = PBXBuildFile; fileRef = 911A858AD6FF96C78ECAA3D45D183FBB /* MBLaneIndication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D20265D88CA956E0B11B3D0C8B0C2638 /* MapboxDirections.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D15AB7E51FB0BFFBBB993838B1F203 /* MapboxDirections.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2B3DBF0ACB355CC02C3E84BFA1BA8AA /* MBRouteStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3DAF231331C222F8D3FEF58BF3E3E /* MBRouteStep.swift */; };
+		DB62842B49B5CBCEA53D5EACE677A321 /* MBRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B7455C8A08493DD7EF11345035D217 /* MBRoute.swift */; };
+		DDF7526FDB60C2504788E547E0D8CBDB /* MBWaypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D427154572F14615EE5346ADD21643 /* MBWaypoint.swift */; };
+		DEF74F54BEA01F081609DC196BF42133 /* MBIntersection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC33C6EA0A524578A258B769D44D2A63 /* MBIntersection.swift */; };
+		DF5C5DFCA5DA2FD239026B89C32B7B63 /* MBRoadClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = E5CFDCAE9EB2B85793483ED5270B3639 /* MBRoadClasses.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7D028C87D88AFAB2370A9E55051ECA4 /* Polyline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327512FF927EC475EE414D049567E054 /* Polyline.framework */; };
+		E88F56161EA928E822CF204F5D47A8B0 /* CLLocationCoordinate2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A754073DD1A7BE8B1C430B8FA01663 /* CLLocationCoordinate2D.swift */; };
+		F184BCA5E8723E3D2CEA41277245D615 /* MBLane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A1D706D549A8AC8EC244DE48C86D9F /* MBLane.swift */; };
+		F4ACF558E8FBFA23DF797E2FCF874626 /* MBRouteOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = A743D44AC28AC4983B3521F1AE3E307C /* MBRouteOptions.m */; };
+		FAF3FE4772DC4952CE79C4B5A951D04A /* MBAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 033ED422D019CD8004B345AF124BCC66 /* MBAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90B5F003CD6CCFE1F0002BF6D63308BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8810BE30A7906318EE6A0A9000F3A81;
+			remoteInfo = Polyline;
+		};
+		A03EE2C337916205A1E08154BFE0E991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A8AE44A47939F94B06B3A9C8A4ECE65;
+			remoteInfo = MapboxDirections.swift;
+		};
+		B98EDAC8D40038DD59D851D18BCBED5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8810BE30A7906318EE6A0A9000F3A81;
+			remoteInfo = Polyline;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01611C8FA33A3C2BA441CCFE540C8CB0 /* MapboxDirections.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapboxDirections.swift.xcconfig; sourceTree = "<group>"; };
+		033ED422D019CD8004B345AF124BCC66 /* MBAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBAttribute.h; path = Sources/CMapboxDirections/include/MBAttribute.h; sourceTree = "<group>"; };
+		0CFB43F7293785B4C7DC57A5215CEEFE /* MBVisualInstructionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBVisualInstructionType.swift; path = Sources/MapboxDirections/MBVisualInstructionType.swift; sourceTree = "<group>"; };
+		103EBD9A52C9ABC0AAFF42BAEE7BF7FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1077923034121261DF997E171BE3AC2F /* MBCongestion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBCongestion.swift; path = Sources/MapboxDirections/MBCongestion.swift; sourceTree = "<group>"; };
+		10F3DAF231331C222F8D3FEF58BF3E3E /* MBRouteStep.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBRouteStep.swift; path = Sources/MapboxDirections/MBRouteStep.swift; sourceTree = "<group>"; };
+		162501265FEDA0A38A5BC9991EA66379 /* MBMatchOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBMatchOptions.swift; path = Sources/MapboxDirections/Match/MBMatchOptions.swift; sourceTree = "<group>"; };
+		1A0DF1DD8948DCD71B0095F0478226F3 /* Pods-NaviWalk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NaviWalk-umbrella.h"; sourceTree = "<group>"; };
+		1D9C1C1E110E581993D194359845454B /* MapboxDirections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MapboxDirections.framework; path = MapboxDirections.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F5F2C09AE20F946D6279FBE9D50191 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D1E832CD29C2E266DC4C1D529F88EBB /* Polyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Polyline.h; path = Sources/Polyline/Polyline.h; sourceTree = "<group>"; };
+		2D7C94EF151520DE00A4161378D97782 /* MBDirections.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBDirections.swift; path = Sources/MapboxDirections/MBDirections.swift; sourceTree = "<group>"; };
+		2E3DD76CCD38B855EDB097BBCF2DB4B5 /* Polyline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Polyline.swift; path = Sources/Polyline/Polyline.swift; sourceTree = "<group>"; };
+		2F722C90FCB000BB152EA21FD88C89A3 /* MBDirectionsResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBDirectionsResult.swift; path = Sources/MapboxDirections/MBDirectionsResult.swift; sourceTree = "<group>"; };
+		3052D31023F083689E04D47FB8910B3E /* Pods-NaviWalk-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaviWalk-acknowledgements.plist"; sourceTree = "<group>"; };
+		327512FF927EC475EE414D049567E054 /* Polyline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Polyline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E7328DB3AEAA7B41B04367EB109E17 /* MBVisualInstructionBanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBVisualInstructionBanner.swift; path = Sources/MapboxDirections/MBVisualInstructionBanner.swift; sourceTree = "<group>"; };
+		3994E5AB55FF374F5331422ECFAAD69C /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = Sources/MapboxDirections/Extensions/String.swift; sourceTree = "<group>"; };
+		3BCB3EC842F6A235D2A3FBE40E2389AB /* Pods-NaviWalk-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaviWalk-frameworks.sh"; sourceTree = "<group>"; };
+		3C2C9E35A05B77889B93FD751BA706E2 /* Polyline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Polyline.framework; path = Polyline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4472574EA366214C90D67A9BC3C6546A /* MBLaneIndication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBLaneIndication.swift; path = Sources/MapboxDirections/MBLaneIndication.swift; sourceTree = "<group>"; };
+		45D15AB7E51FB0BFFBBB993838B1F203 /* MapboxDirections.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapboxDirections.swift-umbrella.h"; sourceTree = "<group>"; };
+		47264CB43D39D0F6F194B34AD911E667 /* Pods-NaviWalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaviWalk.release.xcconfig"; sourceTree = "<group>"; };
+		4800F9ECA1D02E4FD28EE9CA4390E5B9 /* Double.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Double.swift; path = Sources/MapboxDirections/Extensions/Double.swift; sourceTree = "<group>"; };
+		4E751DCB66C849C7895EEA342B8F922E /* Pods-NaviWalk-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaviWalk-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5257D1D3CEB8571044CD1AA96C6D8313 /* MapboxDirections.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MapboxDirections.swift.modulemap; sourceTree = "<group>"; };
+		55CF94052F5ABD6BEE76874307D39819 /* MBComponentRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBComponentRepresentable.swift; path = Sources/MapboxDirections/MBComponentRepresentable.swift; sourceTree = "<group>"; };
+		5C3AD12EB42BB76D5938334622678101 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		60DE4C6B264E19411DB00BD46895E6C3 /* MBLaneIndicationComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBLaneIndicationComponent.swift; path = Sources/MapboxDirections/MBLaneIndicationComponent.swift; sourceTree = "<group>"; };
+		67DE272E04EDF5381B3F523C6A3656FE /* MBRouteLeg.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBRouteLeg.swift; path = Sources/MapboxDirections/MBRouteLeg.swift; sourceTree = "<group>"; };
+		6BA3B09FEA2BDD672DDD97C3C273E97D /* Pods_NaviWalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NaviWalk.framework; path = "Pods-NaviWalk.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D50510B2D4A924262912DE0EFF3097E /* MapboxDirections.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapboxDirections.swift-prefix.pch"; sourceTree = "<group>"; };
+		7E617B8D225C71BE04E715EAA7528DC5 /* OfflineDirections.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OfflineDirections.swift; path = Sources/MapboxDirections/OfflineDirections.swift; sourceTree = "<group>"; };
+		804E0BAD9D89F5D613A47BA0C6CA2C38 /* MBVisualInstruction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBVisualInstruction.swift; path = Sources/MapboxDirections/MBVisualInstruction.swift; sourceTree = "<group>"; };
+		83B7455C8A08493DD7EF11345035D217 /* MBRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBRoute.swift; path = Sources/MapboxDirections/MBRoute.swift; sourceTree = "<group>"; };
+		86A1D706D549A8AC8EC244DE48C86D9F /* MBLane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBLane.swift; path = Sources/MapboxDirections/MBLane.swift; sourceTree = "<group>"; };
+		8B4F1E4C7D1CA2DA7ABB8B9E64D21AAA /* Polyline-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Polyline-dummy.m"; sourceTree = "<group>"; };
+		8D679A6AFB24D0C42AD421296F365872 /* Pods-NaviWalk-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaviWalk-resources.sh"; sourceTree = "<group>"; };
+		8EBB64AA6675AA78D7FE4A2717E52958 /* MBRouteOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBRouteOptions.h; path = Sources/CMapboxDirections/include/MBRouteOptions.h; sourceTree = "<group>"; };
+		91074456829D7880975F491A199E0D22 /* Pods-NaviWalk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaviWalk-dummy.m"; sourceTree = "<group>"; };
+		911A858AD6FF96C78ECAA3D45D183FBB /* MBLaneIndication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLaneIndication.h; path = Sources/CMapboxDirections/include/MBLaneIndication.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		987F6A6FAF3D9238BB3B496A98968E93 /* MBVisualInstructionComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBVisualInstructionComponent.swift; path = Sources/MapboxDirections/MBVisualInstructionComponent.swift; sourceTree = "<group>"; };
+		9CCCCF665990FDFDE50001A5C2DB41B0 /* MBTracepoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBTracepoint.swift; path = Sources/MapboxDirections/Match/MBTracepoint.swift; sourceTree = "<group>"; };
+		A05B26513D4546A48AC4883479FCD36F /* Pods-NaviWalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaviWalk.debug.xcconfig"; sourceTree = "<group>"; };
+		A743D44AC28AC4983B3521F1AE3E307C /* MBRouteOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBRouteOptions.m; path = Sources/CMapboxDirections/MBRouteOptions.m; sourceTree = "<group>"; };
+		A853187333C1D81A9DA05B79AE3340D5 /* Polyline.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Polyline.modulemap; sourceTree = "<group>"; };
+		A90D312AE0A49DD6F544C5C792895F26 /* MBCoordinateBounds.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBCoordinateBounds.swift; path = Sources/MapboxDirections/MBCoordinateBounds.swift; sourceTree = "<group>"; };
+		AF61765D0543C0E06BDAD3ACDE4E52F7 /* Polyline-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polyline-prefix.pch"; sourceTree = "<group>"; };
+		B8D427154572F14615EE5346ADD21643 /* MBWaypoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBWaypoint.swift; path = Sources/MapboxDirections/MBWaypoint.swift; sourceTree = "<group>"; };
+		BCC5012CFBB712C5EF359D5DE2AD6516 /* MapboxDirections.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MapboxDirections.h; path = Sources/MapboxDirections/MapboxDirections.h; sourceTree = "<group>"; };
+		C08103919B9BAB9B88E6189E15AB88DB /* MBRoadClasses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBRoadClasses.swift; path = Sources/MapboxDirections/MBRoadClasses.swift; sourceTree = "<group>"; };
+		C6839A6B53452A13CC728F4331D6FCD8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7EA1C46E0EA30618ECFF9B934EF197C /* CMapboxDirections.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CMapboxDirections.h; path = Sources/CMapboxDirections/include/CMapboxDirections.h; sourceTree = "<group>"; };
+		CB28C7848DA4E6E824F6257FB7C1ECE8 /* MBDirectionsOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBDirectionsOptions.swift; path = Sources/MapboxDirections/MBDirectionsOptions.swift; sourceTree = "<group>"; };
+		CE2827F4B65C303180DF1B58C3E74A6D /* MBMatch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBMatch.swift; path = Sources/MapboxDirections/Match/MBMatch.swift; sourceTree = "<group>"; };
+		D4BF89DEB68E0D83C993C3A92756B5EB /* Pods-NaviWalk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NaviWalk.modulemap"; sourceTree = "<group>"; };
+		D7D44D633070D1BE7074DA6465A8D658 /* Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Array.swift; path = Sources/MapboxDirections/Extensions/Array.swift; sourceTree = "<group>"; };
+		E1A754073DD1A7BE8B1C430B8FA01663 /* CLLocationCoordinate2D.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLLocationCoordinate2D.swift; path = Sources/MapboxDirections/Extensions/CLLocationCoordinate2D.swift; sourceTree = "<group>"; };
+		E1F2E480C03B5A00F56EDDB68D14D6A1 /* HTTPURLResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPURLResponse.swift; path = Sources/MapboxDirections/Extensions/HTTPURLResponse.swift; sourceTree = "<group>"; };
+		E5CFDCAE9EB2B85793483ED5270B3639 /* MBRoadClasses.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBRoadClasses.h; path = Sources/CMapboxDirections/include/MBRoadClasses.h; sourceTree = "<group>"; };
+		E67345C91C9F305E1F965E845AB34DCE /* MapboxDirections.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapboxDirections.swift-dummy.m"; sourceTree = "<group>"; };
+		E88F71A3A068BE504FFD7E3E041481C3 /* Polyline-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polyline-umbrella.h"; sourceTree = "<group>"; };
+		F488128863E9611643FE86A6BB4CE817 /* MBAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBAttribute.swift; path = Sources/MapboxDirections/MBAttribute.swift; sourceTree = "<group>"; };
+		F6741227974BD7FA8E754279E168DA46 /* Polyline.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Polyline.xcconfig; sourceTree = "<group>"; };
+		FC33C6EA0A524578A258B769D44D2A63 /* MBIntersection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBIntersection.swift; path = Sources/MapboxDirections/MBIntersection.swift; sourceTree = "<group>"; };
+		FE87B3389C0A1516651A5E45B6752EEB /* MBSpokenInstruction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBSpokenInstruction.swift; path = Sources/MapboxDirections/MBSpokenInstruction.swift; sourceTree = "<group>"; };
+		FFD6F81FED0671451C661AF6FDD7A458 /* MBRouteOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBRouteOptions.swift; path = Sources/MapboxDirections/MBRouteOptions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E5170C144FCAD8BB65E26AE219E5A54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8999B4CED79D42236F67485444CC47D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7028B4AB6ADF836584229A57C3F72A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02597E605F4A304F7D8EE712040DB839 /* Foundation.framework in Frameworks */,
+				E7D028C87D88AFAB2370A9E55051ECA4 /* Polyline.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5AE1637AEDB14996A03FF0265E9B70E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E9251F76A6E3880697D220D6A53DC21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14613DB1CF72335B1D714C83AD443FE1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C779481DCEDFE359D6B97A28F56AF25D /* Pods-NaviWalk */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1C1BF5E5DD7A1671DFFE826924275D68 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21F5F2C09AE20F946D6279FBE9D50191 /* Info.plist */,
+				A853187333C1D81A9DA05B79AE3340D5 /* Polyline.modulemap */,
+				F6741227974BD7FA8E754279E168DA46 /* Polyline.xcconfig */,
+				8B4F1E4C7D1CA2DA7ABB8B9E64D21AAA /* Polyline-dummy.m */,
+				AF61765D0543C0E06BDAD3ACDE4E52F7 /* Polyline-prefix.pch */,
+				E88F71A3A068BE504FFD7E3E041481C3 /* Polyline-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Polyline";
+			sourceTree = "<group>";
+		};
+		2595D91969C8A5045F78743E581F1405 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D9C1C1E110E581993D194359845454B /* MapboxDirections.framework */,
+				6BA3B09FEA2BDD672DDD97C3C273E97D /* Pods_NaviWalk.framework */,
+				3C2C9E35A05B77889B93FD751BA706E2 /* Polyline.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D52FF8A91DDA1BFCCFCDED105969F1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				327512FF927EC475EE414D049567E054 /* Polyline.framework */,
+				E734FFF8461ABAD064D1F6EBE00D09FD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7D52FF8A91DDA1BFCCFCDED105969F1C /* Frameworks */,
+				A498FE007DA93DDC23DD703D7F3513DF /* Pods */,
+				2595D91969C8A5045F78743E581F1405 /* Products */,
+				14613DB1CF72335B1D714C83AD443FE1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9404DB43171B0F910910CFF0E2DFE141 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				103EBD9A52C9ABC0AAFF42BAEE7BF7FB /* Info.plist */,
+				5257D1D3CEB8571044CD1AA96C6D8313 /* MapboxDirections.swift.modulemap */,
+				01611C8FA33A3C2BA441CCFE540C8CB0 /* MapboxDirections.swift.xcconfig */,
+				E67345C91C9F305E1F965E845AB34DCE /* MapboxDirections.swift-dummy.m */,
+				7D50510B2D4A924262912DE0EFF3097E /* MapboxDirections.swift-prefix.pch */,
+				45D15AB7E51FB0BFFBBB993838B1F203 /* MapboxDirections.swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MapboxDirections.swift";
+			sourceTree = "<group>";
+		};
+		991E8500859D40FF9112A0597F88FE5A /* MapboxDirections.swift */ = {
+			isa = PBXGroup;
+			children = (
+				D7D44D633070D1BE7074DA6465A8D658 /* Array.swift */,
+				E1A754073DD1A7BE8B1C430B8FA01663 /* CLLocationCoordinate2D.swift */,
+				C7EA1C46E0EA30618ECFF9B934EF197C /* CMapboxDirections.h */,
+				4800F9ECA1D02E4FD28EE9CA4390E5B9 /* Double.swift */,
+				E1F2E480C03B5A00F56EDDB68D14D6A1 /* HTTPURLResponse.swift */,
+				BCC5012CFBB712C5EF359D5DE2AD6516 /* MapboxDirections.h */,
+				033ED422D019CD8004B345AF124BCC66 /* MBAttribute.h */,
+				F488128863E9611643FE86A6BB4CE817 /* MBAttribute.swift */,
+				55CF94052F5ABD6BEE76874307D39819 /* MBComponentRepresentable.swift */,
+				1077923034121261DF997E171BE3AC2F /* MBCongestion.swift */,
+				A90D312AE0A49DD6F544C5C792895F26 /* MBCoordinateBounds.swift */,
+				2D7C94EF151520DE00A4161378D97782 /* MBDirections.swift */,
+				CB28C7848DA4E6E824F6257FB7C1ECE8 /* MBDirectionsOptions.swift */,
+				2F722C90FCB000BB152EA21FD88C89A3 /* MBDirectionsResult.swift */,
+				FC33C6EA0A524578A258B769D44D2A63 /* MBIntersection.swift */,
+				86A1D706D549A8AC8EC244DE48C86D9F /* MBLane.swift */,
+				911A858AD6FF96C78ECAA3D45D183FBB /* MBLaneIndication.h */,
+				4472574EA366214C90D67A9BC3C6546A /* MBLaneIndication.swift */,
+				60DE4C6B264E19411DB00BD46895E6C3 /* MBLaneIndicationComponent.swift */,
+				CE2827F4B65C303180DF1B58C3E74A6D /* MBMatch.swift */,
+				162501265FEDA0A38A5BC9991EA66379 /* MBMatchOptions.swift */,
+				E5CFDCAE9EB2B85793483ED5270B3639 /* MBRoadClasses.h */,
+				C08103919B9BAB9B88E6189E15AB88DB /* MBRoadClasses.swift */,
+				83B7455C8A08493DD7EF11345035D217 /* MBRoute.swift */,
+				67DE272E04EDF5381B3F523C6A3656FE /* MBRouteLeg.swift */,
+				8EBB64AA6675AA78D7FE4A2717E52958 /* MBRouteOptions.h */,
+				A743D44AC28AC4983B3521F1AE3E307C /* MBRouteOptions.m */,
+				FFD6F81FED0671451C661AF6FDD7A458 /* MBRouteOptions.swift */,
+				10F3DAF231331C222F8D3FEF58BF3E3E /* MBRouteStep.swift */,
+				FE87B3389C0A1516651A5E45B6752EEB /* MBSpokenInstruction.swift */,
+				9CCCCF665990FDFDE50001A5C2DB41B0 /* MBTracepoint.swift */,
+				804E0BAD9D89F5D613A47BA0C6CA2C38 /* MBVisualInstruction.swift */,
+				34E7328DB3AEAA7B41B04367EB109E17 /* MBVisualInstructionBanner.swift */,
+				987F6A6FAF3D9238BB3B496A98968E93 /* MBVisualInstructionComponent.swift */,
+				0CFB43F7293785B4C7DC57A5215CEEFE /* MBVisualInstructionType.swift */,
+				B8D427154572F14615EE5346ADD21643 /* MBWaypoint.swift */,
+				7E617B8D225C71BE04E715EAA7528DC5 /* OfflineDirections.swift */,
+				3994E5AB55FF374F5331422ECFAAD69C /* String.swift */,
+				9404DB43171B0F910910CFF0E2DFE141 /* Support Files */,
+			);
+			name = MapboxDirections.swift;
+			path = MapboxDirections.swift;
+			sourceTree = "<group>";
+		};
+		A498FE007DA93DDC23DD703D7F3513DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				991E8500859D40FF9112A0597F88FE5A /* MapboxDirections.swift */,
+				B388C43AA978D359497330913937E4DF /* Polyline */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B388C43AA978D359497330913937E4DF /* Polyline */ = {
+			isa = PBXGroup;
+			children = (
+				2D1E832CD29C2E266DC4C1D529F88EBB /* Polyline.h */,
+				2E3DD76CCD38B855EDB097BBCF2DB4B5 /* Polyline.swift */,
+				1C1BF5E5DD7A1671DFFE826924275D68 /* Support Files */,
+			);
+			name = Polyline;
+			path = Polyline;
+			sourceTree = "<group>";
+		};
+		C779481DCEDFE359D6B97A28F56AF25D /* Pods-NaviWalk */ = {
+			isa = PBXGroup;
+			children = (
+				C6839A6B53452A13CC728F4331D6FCD8 /* Info.plist */,
+				D4BF89DEB68E0D83C993C3A92756B5EB /* Pods-NaviWalk.modulemap */,
+				4E751DCB66C849C7895EEA342B8F922E /* Pods-NaviWalk-acknowledgements.markdown */,
+				3052D31023F083689E04D47FB8910B3E /* Pods-NaviWalk-acknowledgements.plist */,
+				91074456829D7880975F491A199E0D22 /* Pods-NaviWalk-dummy.m */,
+				3BCB3EC842F6A235D2A3FBE40E2389AB /* Pods-NaviWalk-frameworks.sh */,
+				8D679A6AFB24D0C42AD421296F365872 /* Pods-NaviWalk-resources.sh */,
+				1A0DF1DD8948DCD71B0095F0478226F3 /* Pods-NaviWalk-umbrella.h */,
+				A05B26513D4546A48AC4883479FCD36F /* Pods-NaviWalk.debug.xcconfig */,
+				47264CB43D39D0F6F194B34AD911E667 /* Pods-NaviWalk.release.xcconfig */,
+			);
+			name = "Pods-NaviWalk";
+			path = "Target Support Files/Pods-NaviWalk";
+			sourceTree = "<group>";
+		};
+		E734FFF8461ABAD064D1F6EBE00D09FD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5C3AD12EB42BB76D5938334622678101 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05CA48E3779E7F0F328EB0E5F0C50034 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C5FEACBD4286C64E764B3C42FF3293 /* Polyline-umbrella.h in Headers */,
+				78D66D59EC76931466F2C6D695D362EE /* Polyline.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384335C9F01F55A8E05244647639A386 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4705F3154FAC6E86A51D6A0B657796B8 /* Pods-NaviWalk-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1303CD59F88182CEE1D764D3FC4B32F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9B691590C3F8242CCBA1519561A46E /* CMapboxDirections.h in Headers */,
+				9BE8591FEE3ABCE3B8ABDE0F097B5EE1 /* MapboxDirections.h in Headers */,
+				D20265D88CA956E0B11B3D0C8B0C2638 /* MapboxDirections.swift-umbrella.h in Headers */,
+				FAF3FE4772DC4952CE79C4B5A951D04A /* MBAttribute.h in Headers */,
+				CADB975F83D46952F8AC39DD6CD3BA83 /* MBLaneIndication.h in Headers */,
+				DF5C5DFCA5DA2FD239026B89C32B7B63 /* MBRoadClasses.h in Headers */,
+				AACCEB12F0BDBA964E372A56A0C0FA98 /* MBRouteOptions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A8AE44A47939F94B06B3A9C8A4ECE65 /* MapboxDirections.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 475F8B38B7AF1691236904C82253B149 /* Build configuration list for PBXNativeTarget "MapboxDirections.swift" */;
+			buildPhases = (
+				26E3F7A2C95E0CC0795F5B5CA34C85C8 /* Sources */,
+				7028B4AB6ADF836584229A57C3F72A74 /* Frameworks */,
+				F1303CD59F88182CEE1D764D3FC4B32F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA3CE2B9C1C5B03A3AB30E831769F103 /* PBXTargetDependency */,
+			);
+			name = MapboxDirections.swift;
+			productName = MapboxDirections.swift;
+			productReference = 1D9C1C1E110E581993D194359845454B /* MapboxDirections.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8810BE30A7906318EE6A0A9000F3A81 /* Polyline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29AFA3A027AFD58BB7F322A66CAF166C /* Build configuration list for PBXNativeTarget "Polyline" */;
+			buildPhases = (
+				CD562B5083844600DEDD593899FE7083 /* Sources */,
+				6E5170C144FCAD8BB65E26AE219E5A54 /* Frameworks */,
+				05CA48E3779E7F0F328EB0E5F0C50034 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polyline;
+			productName = Polyline;
+			productReference = 3C2C9E35A05B77889B93FD751BA706E2 /* Polyline.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA0C18442E05A7443028E1EAD484CB5C /* Pods-NaviWalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 195460117554C53E5E7D79A964F0A401 /* Build configuration list for PBXNativeTarget "Pods-NaviWalk" */;
+			buildPhases = (
+				6A4AA60E43115C8D23E048E98F849493 /* Sources */,
+				B5AE1637AEDB14996A03FF0265E9B70E /* Frameworks */,
+				384335C9F01F55A8E05244647639A386 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EED2C09481A9223FECBC00A812966368 /* PBXTargetDependency */,
+				225FF50B51C80568C9A28C740634DB81 /* PBXTargetDependency */,
+			);
+			name = "Pods-NaviWalk";
+			productName = "Pods-NaviWalk";
+			productReference = 6BA3B09FEA2BDD672DDD97C3C273E97D /* Pods_NaviWalk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2595D91969C8A5045F78743E581F1405 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A8AE44A47939F94B06B3A9C8A4ECE65 /* MapboxDirections.swift */,
+				BA0C18442E05A7443028E1EAD484CB5C /* Pods-NaviWalk */,
+				A8810BE30A7906318EE6A0A9000F3A81 /* Polyline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26E3F7A2C95E0CC0795F5B5CA34C85C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35BECD9733743C46177FFD4F98906D39 /* Array.swift in Sources */,
+				E88F56161EA928E822CF204F5D47A8B0 /* CLLocationCoordinate2D.swift in Sources */,
+				1980DB2643A67C2C8F8964DCAA33980F /* Double.swift in Sources */,
+				3A71AE494EFA5EFCEA408C9D8E9E42A6 /* HTTPURLResponse.swift in Sources */,
+				242775BE68C94D939359EF3CC2410402 /* MapboxDirections.swift-dummy.m in Sources */,
+				A8D4C207C506E27B6667604BA3618194 /* MBAttribute.swift in Sources */,
+				AA023C8FE6F2F4C16A117658A9C461DA /* MBComponentRepresentable.swift in Sources */,
+				6A005FBB9E25C95859A301D253EFC28B /* MBCongestion.swift in Sources */,
+				6C58EECA30EBA2F92CF9C80A302206A6 /* MBCoordinateBounds.swift in Sources */,
+				41B9A1C6A1BA27D035E46BC648145B68 /* MBDirections.swift in Sources */,
+				C66F0FAD3903CA7F4D51542A1F5D1C7A /* MBDirectionsOptions.swift in Sources */,
+				9F04D73C08065C9536C556FCB7D05857 /* MBDirectionsResult.swift in Sources */,
+				DEF74F54BEA01F081609DC196BF42133 /* MBIntersection.swift in Sources */,
+				F184BCA5E8723E3D2CEA41277245D615 /* MBLane.swift in Sources */,
+				4BDE4845989953A79218DB941CB4A5E9 /* MBLaneIndication.swift in Sources */,
+				C5EDD45292E8F896525F05923BD7DCD2 /* MBLaneIndicationComponent.swift in Sources */,
+				A77389790AEC7D9B0AB4F86E2E9560DA /* MBMatch.swift in Sources */,
+				05838D72928EE0D27C73D2F057FFB8D9 /* MBMatchOptions.swift in Sources */,
+				86707FDAC920305F7E2A1B4BB3E1358D /* MBRoadClasses.swift in Sources */,
+				DB62842B49B5CBCEA53D5EACE677A321 /* MBRoute.swift in Sources */,
+				866B578F9F48C0FB02F509C2A16202D8 /* MBRouteLeg.swift in Sources */,
+				F4ACF558E8FBFA23DF797E2FCF874626 /* MBRouteOptions.m in Sources */,
+				8F8ADE4F02AFCB2DCECF0B30FC8EB9BE /* MBRouteOptions.swift in Sources */,
+				D2B3DBF0ACB355CC02C3E84BFA1BA8AA /* MBRouteStep.swift in Sources */,
+				3EA9A986C08B6BB522558F1755CE24CF /* MBSpokenInstruction.swift in Sources */,
+				57FE9C8DA3AA36FFBE8D8F81C8792293 /* MBTracepoint.swift in Sources */,
+				B085CC78F929E1540F29E52280EF1A88 /* MBVisualInstruction.swift in Sources */,
+				C3CF7FA871B07D7A07DF94871448CE6E /* MBVisualInstructionBanner.swift in Sources */,
+				97B770BD25E5CB8B2D7435E96453959E /* MBVisualInstructionComponent.swift in Sources */,
+				96B1555B8AB3776A400FC75188934D94 /* MBVisualInstructionType.swift in Sources */,
+				DDF7526FDB60C2504788E547E0D8CBDB /* MBWaypoint.swift in Sources */,
+				05AC34ABC122B2C81E6325603AA8EEED /* OfflineDirections.swift in Sources */,
+				16B5E9E79CFE1ED6FB91FCA28211A524 /* String.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4AA60E43115C8D23E048E98F849493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1B8EEFC05B6E1E3EE9C59D75B31A6A /* Pods-NaviWalk-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD562B5083844600DEDD593899FE7083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C188D1EA014B8057388EB009A97224 /* Polyline-dummy.m in Sources */,
+				B382696FA380BA2A924C9F94F5709A1A /* Polyline.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		225FF50B51C80568C9A28C740634DB81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Polyline;
+			target = A8810BE30A7906318EE6A0A9000F3A81 /* Polyline */;
+			targetProxy = B98EDAC8D40038DD59D851D18BCBED5E /* PBXContainerItemProxy */;
+		};
+		CA3CE2B9C1C5B03A3AB30E831769F103 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Polyline;
+			target = A8810BE30A7906318EE6A0A9000F3A81 /* Polyline */;
+			targetProxy = 90B5F003CD6CCFE1F0002BF6D63308BC /* PBXContainerItemProxy */;
+		};
+		EED2C09481A9223FECBC00A812966368 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MapboxDirections.swift;
+			target = 2A8AE44A47939F94B06B3A9C8A4ECE65 /* MapboxDirections.swift */;
+			targetProxy = A03EE2C337916205A1E08154BFE0E991 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32C11FF3579C37C6F3BEF20AA7F3DE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4BD1B8DE3B1889842C5207FC249934EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47264CB43D39D0F6F194B34AD911E667 /* Pods-NaviWalk.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NaviWalk/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NaviWalk/Pods-NaviWalk.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4DC36FB77F6366598DA5EF2FA1211618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A05B26513D4546A48AC4883479FCD36F /* Pods-NaviWalk.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NaviWalk/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NaviWalk/Pods-NaviWalk.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		584AFDD879CE30446F43A09208BD3FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01611C8FA33A3C2BA441CCFE540C8CB0 /* MapboxDirections.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MapboxDirections.swift/MapboxDirections.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MapboxDirections.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MapboxDirections.swift/MapboxDirections.swift.modulemap";
+				PRODUCT_MODULE_NAME = MapboxDirections;
+				PRODUCT_NAME = MapboxDirections;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		996E97ECE72092C045A8F2E3BF9F6256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6741227974BD7FA8E754279E168DA46 /* Polyline.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Polyline/Polyline-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Polyline/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Polyline/Polyline.modulemap";
+				PRODUCT_MODULE_NAME = Polyline;
+				PRODUCT_NAME = Polyline;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE953A034159D232317F75C2A9FC1E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6741227974BD7FA8E754279E168DA46 /* Polyline.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Polyline/Polyline-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Polyline/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Polyline/Polyline.modulemap";
+				PRODUCT_MODULE_NAME = Polyline;
+				PRODUCT_NAME = Polyline;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EAA4E70ED153CAD7A25BD9F5896280F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F4D74F14A3B55E864264CD2E9744ED55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01611C8FA33A3C2BA441CCFE540C8CB0 /* MapboxDirections.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MapboxDirections.swift/MapboxDirections.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MapboxDirections.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MapboxDirections.swift/MapboxDirections.swift.modulemap";
+				PRODUCT_MODULE_NAME = MapboxDirections;
+				PRODUCT_NAME = MapboxDirections;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		195460117554C53E5E7D79A964F0A401 /* Build configuration list for PBXNativeTarget "Pods-NaviWalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC36FB77F6366598DA5EF2FA1211618 /* Debug */,
+				4BD1B8DE3B1889842C5207FC249934EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29AFA3A027AFD58BB7F322A66CAF166C /* Build configuration list for PBXNativeTarget "Polyline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE953A034159D232317F75C2A9FC1E21 /* Debug */,
+				996E97ECE72092C045A8F2E3BF9F6256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA4E70ED153CAD7A25BD9F5896280F3 /* Debug */,
+				32C11FF3579C37C6F3BEF20AA7F3DE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		475F8B38B7AF1691236904C82253B149 /* Build configuration list for PBXNativeTarget "MapboxDirections.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584AFDD879CE30446F43A09208BD3FEA /* Debug */,
+				F4D74F14A3B55E864264CD2E9744ED55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
