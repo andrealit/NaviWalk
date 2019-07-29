@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		6741CA577C86B9C338F9CB75 /* Pods_NaviWalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F944D909AD47B1802906A3 /* Pods_NaviWalk.framework */; };
+		F459D70C22EE94A1007EA947 /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F459D70B22EE94A1007EA947 /* AlertPresenter.swift */; };
+		F459D70E22EE96F4007EA947 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F459D70D22EE96F4007EA947 /* ActivityIndicator.swift */; };
+		F459D71022EE99CF007EA947 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F459D70F22EE99CF007EA947 /* Colors.swift */; };
+		F459D71322EEA282007EA947 /* CoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F459D71222EEA282007EA947 /* CoreDataViewController.swift */; };
 		F4B91A0622EA53EB00CC7E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B91A0522EA53EB00CC7E57 /* AppDelegate.swift */; };
 		F4B91A0822EA53EB00CC7E57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B91A0722EA53EB00CC7E57 /* ViewController.swift */; };
 		F4B91A0B22EA53EB00CC7E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B91A0922EA53EB00CC7E57 /* Main.storyboard */; };
@@ -21,6 +25,10 @@
 /* Begin PBXFileReference section */
 		676D6138DE124A4D85803775 /* Pods-NaviWalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaviWalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaviWalk/Pods-NaviWalk.release.xcconfig"; sourceTree = "<group>"; };
 		A4F944D909AD47B1802906A3 /* Pods_NaviWalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaviWalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F459D70B22EE94A1007EA947 /* AlertPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
+		F459D70D22EE96F4007EA947 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		F459D70F22EE99CF007EA947 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F459D71222EEA282007EA947 /* CoreDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewController.swift; sourceTree = "<group>"; };
 		F4B91A0222EA53EB00CC7E57 /* NaviWalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaviWalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B91A0522EA53EB00CC7E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4B91A0722EA53EB00CC7E57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +78,26 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		F459D70A22EE948F007EA947 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F459D70B22EE94A1007EA947 /* AlertPresenter.swift */,
+				F459D70D22EE96F4007EA947 /* ActivityIndicator.swift */,
+				F459D70F22EE99CF007EA947 /* Colors.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F459D71122EE9AC5007EA947 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4B91A1A22EA54CD00CC7E57 /* CoreDataStack.swift */,
+				F4B91A1E22EA5BAD00CC7E57 /* MapboxData.swift */,
+				F459D71222EEA282007EA947 /* CoreDataViewController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F4B919F922EA53EB00CC7E57 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +119,7 @@
 		F4B91A0422EA53EB00CC7E57 /* NaviWalk */ = {
 			isa = PBXGroup;
 			children = (
+				F459D70A22EE948F007EA947 /* Utils */,
 				F459D70922EE8C8A007EA947 /* Data */,
 				F4B91A0522EA53EB00CC7E57 /* AppDelegate.swift */,
 				F4B91A0722EA53EB00CC7E57 /* ViewController.swift */,
@@ -98,8 +127,7 @@
 				F4B91A0F22EA53ED00CC7E57 /* Assets.xcassets */,
 				F4B91A1422EA53ED00CC7E57 /* Info.plist */,
 				F4B91A1D22EA579100CC7E57 /* Data Model */,
-				F4B91A1A22EA54CD00CC7E57 /* CoreDataStack.swift */,
-				F4B91A1E22EA5BAD00CC7E57 /* MapboxData.swift */,
+				F459D71122EE9AC5007EA947 /* Model */,
 			);
 			path = NaviWalk;
 			sourceTree = "<group>";
@@ -235,11 +263,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F459D71322EEA282007EA947 /* CoreDataViewController.swift in Sources */,
 				F4B91A0822EA53EB00CC7E57 /* ViewController.swift in Sources */,
+				F459D71022EE99CF007EA947 /* Colors.swift in Sources */,
 				F4B91A0E22EA53EB00CC7E57 /* NaviWalk.xcdatamodeld in Sources */,
 				F4B91A1F22EA5BAD00CC7E57 /* MapboxData.swift in Sources */,
 				F4B91A0622EA53EB00CC7E57 /* AppDelegate.swift in Sources */,
+				F459D70E22EE96F4007EA947 /* ActivityIndicator.swift in Sources */,
 				F4B91A1B22EA54CD00CC7E57 /* CoreDataStack.swift in Sources */,
+				F459D70C22EE94A1007EA947 /* AlertPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
