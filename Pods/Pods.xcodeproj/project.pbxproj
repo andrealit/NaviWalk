@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -55,6 +55,7 @@
 		E7D028C87D88AFAB2370A9E55051ECA4 /* Polyline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327512FF927EC475EE414D049567E054 /* Polyline.framework */; };
 		E88F56161EA928E822CF204F5D47A8B0 /* CLLocationCoordinate2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A754073DD1A7BE8B1C430B8FA01663 /* CLLocationCoordinate2D.swift */; };
 		F184BCA5E8723E3D2CEA41277245D615 /* MBLane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A1D706D549A8AC8EC244DE48C86D9F /* MBLane.swift */; };
+		F437E9492302708400CF05C9 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F437E9482302708400CF05C9 /* SpotifyiOS.framework */; };
 		F4ACF558E8FBFA23DF797E2FCF874626 /* MBRouteOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = A743D44AC28AC4983B3521F1AE3E307C /* MBRouteOptions.m */; };
 		FAF3FE4772DC4952CE79C4B5A951D04A /* MBAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 033ED422D019CD8004B345AF124BCC66 /* MBAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -92,7 +93,7 @@
 		10F3DAF231331C222F8D3FEF58BF3E3E /* MBRouteStep.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBRouteStep.swift; path = Sources/MapboxDirections/MBRouteStep.swift; sourceTree = "<group>"; };
 		162501265FEDA0A38A5BC9991EA66379 /* MBMatchOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBMatchOptions.swift; path = Sources/MapboxDirections/Match/MBMatchOptions.swift; sourceTree = "<group>"; };
 		1A0DF1DD8948DCD71B0095F0478226F3 /* Pods-NaviWalk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NaviWalk-umbrella.h"; sourceTree = "<group>"; };
-		1D9C1C1E110E581993D194359845454B /* MapboxDirections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MapboxDirections.framework; path = MapboxDirections.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9C1C1E110E581993D194359845454B /* MapboxDirections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapboxDirections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F5F2C09AE20F946D6279FBE9D50191 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D1E832CD29C2E266DC4C1D529F88EBB /* Polyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Polyline.h; path = Sources/Polyline/Polyline.h; sourceTree = "<group>"; };
 		2D7C94EF151520DE00A4161378D97782 /* MBDirections.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBDirections.swift; path = Sources/MapboxDirections/MBDirections.swift; sourceTree = "<group>"; };
@@ -103,7 +104,7 @@
 		34E7328DB3AEAA7B41B04367EB109E17 /* MBVisualInstructionBanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBVisualInstructionBanner.swift; path = Sources/MapboxDirections/MBVisualInstructionBanner.swift; sourceTree = "<group>"; };
 		3994E5AB55FF374F5331422ECFAAD69C /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = Sources/MapboxDirections/Extensions/String.swift; sourceTree = "<group>"; };
 		3BCB3EC842F6A235D2A3FBE40E2389AB /* Pods-NaviWalk-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaviWalk-frameworks.sh"; sourceTree = "<group>"; };
-		3C2C9E35A05B77889B93FD751BA706E2 /* Polyline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Polyline.framework; path = Polyline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C2C9E35A05B77889B93FD751BA706E2 /* Polyline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Polyline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4472574EA366214C90D67A9BC3C6546A /* MBLaneIndication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBLaneIndication.swift; path = Sources/MapboxDirections/MBLaneIndication.swift; sourceTree = "<group>"; };
 		45D15AB7E51FB0BFFBBB993838B1F203 /* MapboxDirections.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapboxDirections.swift-umbrella.h"; sourceTree = "<group>"; };
 		47264CB43D39D0F6F194B34AD911E667 /* Pods-NaviWalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaviWalk.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,7 +115,7 @@
 		5C3AD12EB42BB76D5938334622678101 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		60DE4C6B264E19411DB00BD46895E6C3 /* MBLaneIndicationComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBLaneIndicationComponent.swift; path = Sources/MapboxDirections/MBLaneIndicationComponent.swift; sourceTree = "<group>"; };
 		67DE272E04EDF5381B3F523C6A3656FE /* MBRouteLeg.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBRouteLeg.swift; path = Sources/MapboxDirections/MBRouteLeg.swift; sourceTree = "<group>"; };
-		6BA3B09FEA2BDD672DDD97C3C273E97D /* Pods_NaviWalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NaviWalk.framework; path = "Pods-NaviWalk.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA3B09FEA2BDD672DDD97C3C273E97D /* Pods_NaviWalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaviWalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D50510B2D4A924262912DE0EFF3097E /* MapboxDirections.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapboxDirections.swift-prefix.pch"; sourceTree = "<group>"; };
 		7E617B8D225C71BE04E715EAA7528DC5 /* OfflineDirections.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OfflineDirections.swift; path = Sources/MapboxDirections/OfflineDirections.swift; sourceTree = "<group>"; };
 		804E0BAD9D89F5D613A47BA0C6CA2C38 /* MBVisualInstruction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBVisualInstruction.swift; path = Sources/MapboxDirections/MBVisualInstruction.swift; sourceTree = "<group>"; };
@@ -125,7 +126,7 @@
 		8EBB64AA6675AA78D7FE4A2717E52958 /* MBRouteOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBRouteOptions.h; path = Sources/CMapboxDirections/include/MBRouteOptions.h; sourceTree = "<group>"; };
 		91074456829D7880975F491A199E0D22 /* Pods-NaviWalk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaviWalk-dummy.m"; sourceTree = "<group>"; };
 		911A858AD6FF96C78ECAA3D45D183FBB /* MBLaneIndication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLaneIndication.h; path = Sources/CMapboxDirections/include/MBLaneIndication.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		987F6A6FAF3D9238BB3B496A98968E93 /* MBVisualInstructionComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBVisualInstructionComponent.swift; path = Sources/MapboxDirections/MBVisualInstructionComponent.swift; sourceTree = "<group>"; };
 		9CCCCF665990FDFDE50001A5C2DB41B0 /* MBTracepoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBTracepoint.swift; path = Sources/MapboxDirections/Match/MBTracepoint.swift; sourceTree = "<group>"; };
 		A05B26513D4546A48AC4883479FCD36F /* Pods-NaviWalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaviWalk.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +148,7 @@
 		E5CFDCAE9EB2B85793483ED5270B3639 /* MBRoadClasses.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBRoadClasses.h; path = Sources/CMapboxDirections/include/MBRoadClasses.h; sourceTree = "<group>"; };
 		E67345C91C9F305E1F965E845AB34DCE /* MapboxDirections.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapboxDirections.swift-dummy.m"; sourceTree = "<group>"; };
 		E88F71A3A068BE504FFD7E3E041481C3 /* Polyline-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polyline-umbrella.h"; sourceTree = "<group>"; };
+		F437E9482302708400CF05C9 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyiOS.framework; path = "../../../Downloads/ios-sdk-1.0.2/SpotifyiOS.framework"; sourceTree = "<group>"; };
 		F488128863E9611643FE86A6BB4CE817 /* MBAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBAttribute.swift; path = Sources/MapboxDirections/MBAttribute.swift; sourceTree = "<group>"; };
 		F6741227974BD7FA8E754279E168DA46 /* Polyline.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Polyline.xcconfig; sourceTree = "<group>"; };
 		FC33C6EA0A524578A258B769D44D2A63 /* MBIntersection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBIntersection.swift; path = Sources/MapboxDirections/MBIntersection.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02597E605F4A304F7D8EE712040DB839 /* Foundation.framework in Frameworks */,
+				F437E9492302708400CF05C9 /* SpotifyiOS.framework in Frameworks */,
 				E7D028C87D88AFAB2370A9E55051ECA4 /* Polyline.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,6 +221,7 @@
 		7D52FF8A91DDA1BFCCFCDED105969F1C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F437E9482302708400CF05C9 /* SpotifyiOS.framework */,
 				327512FF927EC475EE414D049567E054 /* Polyline.framework */,
 				E734FFF8461ABAD064D1F6EBE00D09FD /* iOS */,
 			);
@@ -292,7 +296,6 @@
 				3994E5AB55FF374F5331422ECFAAD69C /* String.swift */,
 				9404DB43171B0F910910CFF0E2DFE141 /* Support Files */,
 			);
-			name = MapboxDirections.swift;
 			path = MapboxDirections.swift;
 			sourceTree = "<group>";
 		};
@@ -312,7 +315,6 @@
 				2E3DD76CCD38B855EDB097BBCF2DB4B5 /* Polyline.swift */,
 				1C1BF5E5DD7A1671DFFE826924275D68 /* Support Files */,
 			);
-			name = Polyline;
 			path = Polyline;
 			sourceTree = "<group>";
 		};
@@ -447,6 +449,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -619,11 +622,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-NaviWalk/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NaviWalk/Pods-NaviWalk.modulemap";
 				OTHER_LDFLAGS = "";
@@ -659,11 +658,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-NaviWalk/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NaviWalk/Pods-NaviWalk.modulemap";
 				OTHER_LDFLAGS = "";
@@ -698,11 +693,7 @@
 				INFOPLIST_FILE = "Target Support Files/MapboxDirections.swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MapboxDirections.swift/MapboxDirections.swift.modulemap";
 				PRODUCT_MODULE_NAME = MapboxDirections;
 				PRODUCT_NAME = MapboxDirections;
@@ -734,11 +725,7 @@
 				INFOPLIST_FILE = "Target Support Files/Polyline/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Polyline/Polyline.modulemap";
 				PRODUCT_MODULE_NAME = Polyline;
 				PRODUCT_NAME = Polyline;
@@ -771,11 +758,7 @@
 				INFOPLIST_FILE = "Target Support Files/Polyline/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Polyline/Polyline.modulemap";
 				PRODUCT_MODULE_NAME = Polyline;
 				PRODUCT_NAME = Polyline;
@@ -870,11 +853,7 @@
 				INFOPLIST_FILE = "Target Support Files/MapboxDirections.swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MapboxDirections.swift/MapboxDirections.swift.modulemap";
 				PRODUCT_MODULE_NAME = MapboxDirections;
 				PRODUCT_NAME = MapboxDirections;
